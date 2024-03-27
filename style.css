@@ -1,0 +1,176 @@
+body>div {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(243, 229, 213);
+}
+
+.container {
+    display: flex;
+    height: auto;
+    width: 900px;
+    color: rgb(127, 75, 10);
+    justify-content: center;
+    padding: 50px;
+    position: relative;
+    padding-top:0px;
+}
+
+.under-header {
+    width: auto;
+    margin-top: 0;
+    height: 4px;
+    border-width: 0;
+    color: rgb(49, 28, 2);
+    background-color: rgb(68, 39, 3);
+}
+
+.content {
+    align-items: center;
+    text-align: center;
+    height: auto;
+}
+
+.left-header {
+    width: 300px;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.right-header {
+    font-weight: 900;
+    font-size: 30px;
+}
+
+
+
+/*left*/
+.col-left {
+    width: 300px;
+    margin-right:100px;
+}
+
+/*---anh bia---*/
+
+.wrapper {
+    width: 300px;
+    height: 300px;
+    
+}
+
+#anhbia {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 20px solid;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
+}
+
+/*--contact*/
+.contact {}
+
+
+.contact-info {
+    padding: 15px 5px 15px 5px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.contact-info p {
+    padding: 5px 0px 5px 0px;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: rgb(127, 75, 10);
+}
+
+/*language*/
+.language-info {
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.education-info {
+    text-align: center;
+}
+
+.edu-info-ct {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.edu-info-u-ct {
+    font-weight: 600;
+}
+
+/*right*/
+.col-right {
+    width: 400px;
+}
+
+.work-experience-info-header {
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.work-experience-info-header p {
+    margin-bottom: 0;
+}
+
+.work-experience-info-des {
+    font-size: 12px;
+}
+
+.skill-info {
+    justify-content: center;
+
+    align-items: center;
+}
+
+.skill-info p {
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+.skill-info .fa {
+    float: right;
+    margin-right: 20px;
+    height: auto;
+}
+
+.interest{
+    margin-top:25px;
+}
+.interest-info {
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+#author {
+    margin-top:55px;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+}
+
+#under-author {
+    font-size: 30px;
+    font-weight: 350;
+    margin-top:50px;
+    text-align: center;
+}
+
+.author-des {
+    font-size: 13px;
+}
